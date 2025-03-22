@@ -11,7 +11,7 @@ const Admin = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:5000/api/blogs",
+        "https://satyam-e1ix.onrender.com/api/blogs",
         { title, content },
         { headers: { Authorization: token } }
       );
