@@ -1,0 +1,94 @@
+/* MySkills.css */
+
+.skills-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.skills-content {
+  text-align: center;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  max-width: 700px;
+  width: 90%;
+}
+
+h2 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out, background-color 0.3s;
+}
+
+.skills-list li:hover {
+  transform: scale(1.08);
+  background-color: #ff5252;
+}
+
+@media (max-width: 768px) {
+  .skills-content {
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list li {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-content {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .skills-list li {
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 90%;
+  }
+}
