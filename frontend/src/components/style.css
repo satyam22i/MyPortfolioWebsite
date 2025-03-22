@@ -277,3 +277,57 @@ n .footer {
    
   }
 }
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .Main-contener {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-heading {
+    margin-right: 3em;
+    font-size: 23px;
+  }
+
+  .intro-paragraph {
+    margin-top: 2em;
+    margin-right: 5.2em;
+  }
+
+  .img-contener {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+  }
+
+  .img {
+    margin-right: 55px;
+    border-radius: 24%;
+    max-width: 92%;
+    height: auto;
+  }
+
+  .resume-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+
+  .btn-contener {
+    margin-right: 8em;
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+}
