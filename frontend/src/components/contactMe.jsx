@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import "./projAd.css"; // Using the same CSS file for styling
 
 const ContactMe = () => {
-  const email = "satyam_2312res584@iitp.ac.in";
+  const email = "satyamkum2020@gmail.com";
   const subject = "Hiring Inquiry";
   const body =
     "Hello Satyam,\n\nI would love to discuss a hiring opportunity with you.\n\nBest regards,\n[Your Name]";
