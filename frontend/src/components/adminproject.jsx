@@ -16,7 +16,7 @@ const AdminProject = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/projects")
+      .get("https://satyam-e1ix.onrender.com/api/projects")
       .then((res) => setProjects(res.data))
       .catch((err) => console.error("Error fetching projects:", err));
   }, []);
@@ -34,7 +34,7 @@ const AdminProject = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/projects",
+        "https://satyam-e1ix.onrender.com/api/projects",
         formData,
         {
           headers: { Authorization: token },
