@@ -253,3 +253,27 @@ n .footer {
   color: #555;
 
 }
+
+
+
+@media (max-width: 480px) {
+  .header {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .list-item {
+    font-size: 14px;
+    white-space: nowrap;
+   
+  }
+}
