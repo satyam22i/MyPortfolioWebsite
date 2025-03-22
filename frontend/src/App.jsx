@@ -8,6 +8,7 @@ import Header from "./components/header";
 import Admin from "./components/admin";
 import AdminProjectUpload from "./components/adminproject";
 import ContactMe from "./components/contactMe";
+import MySkills from "./components/skill";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             }
           />
           <Route path="/content" element={<FeaturedWorks />} />
+          <Route path="/skills" element={<MySkills />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<ContactMe />} />
           <Route path="/admin" element={<Admin />} />
@@ -38,3 +40,4 @@ function App() {
 }
 
 export default App;
+
