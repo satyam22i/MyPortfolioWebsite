@@ -10,6 +10,9 @@ const Header = () => {
     <nav className="header" aria-label="Main Navigation">
       <ul className="header-content">
         <li className="list-item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="list-item">
           <Link to="/content">Works</Link>
         </li>
         <li className="list-item">
@@ -27,4 +30,5 @@ const Header = () => {
 };
 
 export default Header;
+
 
