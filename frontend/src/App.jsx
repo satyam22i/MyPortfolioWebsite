@@ -9,6 +9,7 @@ import Admin from "./components/admin";
 import AdminProjectUpload from "./components/adminproject";
 import ContactMe from "./components/contactMe";
 import MySkills from "./components/skill";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               </>
             }
           />
+          <Route path="/" element={<Home />} />
           <Route path="/content" element={<FeaturedWorks />} />
           <Route path="/skills" element={<MySkills />} />
           <Route path="/blogs" element={<Blogs />} />
@@ -40,4 +42,3 @@ function App() {
 }
 
 export default App;
-
