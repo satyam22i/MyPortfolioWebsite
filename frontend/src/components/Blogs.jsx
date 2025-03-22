@@ -7,7 +7,7 @@ const Blogs = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/blogs")
+      .get("https://satyam-e1ix.onrender.com/api/blogs")
       .then((response) => setBlogs(response.data))
       .catch((error) => console.error("Error fetching blogs:", error));
   }, []);
