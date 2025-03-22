@@ -1,0 +1,150 @@
+/* Common Container Fix */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* 🔥 Blogs Section */
+.blogs {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  min-height: 400px;
+  /* Ensures blogs section has enough space */
+  padding-bottom: 60px;
+  /* Creates space for Featured Works */
+}
+
+.resent {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.blogs-contener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.blog-box {
+  width: 60%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-box:hover {
+  transform: scale(1.03);
+}
+
+.blog-box h1 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-box p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ✅ Featured Works Section */
+.featured-works {
+  width: 80%;
+  text-align: center;
+  margin-top: 60px;
+  /* Adds space after Blogs */
+  padding-bottom: 60px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ✅ Work Card Styling */
+.work-card {
+  display: flex;
+  align-items: center;
+  /* Center image and text vertically */
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* ✅ Image Styling */
+.work-image {
+  width: 150px;
+  height: 120px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+/* ✅ Work Details */
+.work-details {
+  flex: 1;
+}
+
+.work-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.work-meta {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+  margin: 8px 0;
+}
+
+.year {
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.category {
+  color: gray;
+}
+
+.work-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* ✅ Responsive Fix for Mobile */
+@media (max-width: 768px) {
+  .work-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .work-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .blog-box {
+    width: 90%;
+  }
+}
