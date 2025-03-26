@@ -6,7 +6,7 @@ import satyamimg from "../images/satyam.jpg";
 function Main() {
   function downloadResume() {
     const link = document.createElement("a");
-    link.href = "path/to/your/resume.pdf";
+    link.href = "https://drive.google.com/file/d/1Su5pg2R-Qs-Wd4QuG98OTFZO01h3MQBO/view?usp=sharing";
     link.download = "resume.pdf";
     document.body.appendChild(link);
     link.click();
